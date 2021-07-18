@@ -1,0 +1,44 @@
+body{
+    padding: 0; margin: 0;
+    font-family: arial;
+    font-size: 16px;
+}
+input, select{font-size: 16px; padding: 1px;}
+
+a{text-decoration: none;}
+h1, h2, h3{text-align: center;}
+
+main{
+    min-height: 80vh;
+    padding: 1em;
+}
+
+header{
+    background-color: lightblue;
+    border-bottom: gray thin solid;
+    text-align: center;
+    padding: 1px;
+}
+
+footer{
+    padding: 0.25em;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{color: wheat;}
+
+.tile{
+    font-size: 120%;
+    text-align: center;
+    background-color: lightsteelblue;
+    margin: 1em 1em 1em 0;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 1em 2em;
+}
+
+.statusbar{background-color: azure; padding: 0.2em; font-weight: bold; border: thin lightskyblue solid;}
+
+table{width: 80%; margin: auto auto; border: thin solid lightgray;}
+td{border-bottom: thin solid lightgray; padding: 2px;}
